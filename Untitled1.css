@@ -1,3 +1,103 @@
+@-webkit-keyframes transform-pulse
+{
+   0% { -webkit-transform:  rotate(0deg);  }
+   50% { -webkit-transform:  rotate(0deg) scale(1.1,1.1);  }
+   100% { -webkit-transform:  rotate(0deg) scale(1.0,1.0);  }
+}
+@-moz-keyframes transform-pulse
+{
+   0% { -moz-transform:  rotate(0deg);  }
+   50% { -moz-transform:  rotate(0deg) scale(1.1,1.1);  }
+   100% { -moz-transform:  rotate(0deg) scale(1.0,1.0);  }
+}
+@-o-keyframes transform-pulse
+{
+   0% { -o-transform:  rotate(0deg);  }
+   50% { -o-transform:  rotate(0deg) scale(1.1,1.1);  }
+   100% { -o-transform:  rotate(0deg) scale(1.0,1.0);  }
+}
+@-ms-keyframes transform-pulse
+{
+   0% { -ms-transform:  rotate(0deg);  }
+   50% { -ms-transform:  rotate(0deg) scale(1.1,1.1);  }
+   100% { -ms-transform:  rotate(0deg) scale(1.0,1.0);  }
+}
+@keyframes transform-pulse
+{
+   0% { transform:  rotate(0deg);  }
+   50% { transform:  rotate(0deg) scale(1.1,1.1);  }
+   100% { transform:  rotate(0deg) scale(1.0,1.0);  }
+}
+@-webkit-keyframes transform-wiggle
+{
+   0% { -webkit-transform:  rotate(0deg) skewX(9deg);  }
+   10% { -webkit-transform:  rotate(0deg) skewX(-8deg);  }
+   20% { -webkit-transform:  rotate(0deg) skewX(7deg);  }
+   30% { -webkit-transform:  rotate(0deg) skewX(-6deg);  }
+   40% { -webkit-transform:  rotate(0deg) skewX(5deg);  }
+   50% { -webkit-transform:  rotate(0deg) skewX(-4deg);  }
+   60% { -webkit-transform:  rotate(0deg) skewX(3deg);  }
+   70% { -webkit-transform:  rotate(0deg) skewX(-2deg);  }
+   80% { -webkit-transform:  rotate(0deg) skewX(1deg);  }
+   90% { -webkit-transform:  rotate(0deg) skewX(0deg);  }
+   100% { -webkit-transform:  rotate(0deg) skewX(0deg);  }
+}
+@-moz-keyframes transform-wiggle
+{
+   0% { -moz-transform:  rotate(0deg) skewX(9deg);  }
+   10% { -moz-transform:  rotate(0deg) skewX(-8deg);  }
+   20% { -moz-transform:  rotate(0deg) skewX(7deg);  }
+   30% { -moz-transform:  rotate(0deg) skewX(-6deg);  }
+   40% { -moz-transform:  rotate(0deg) skewX(5deg);  }
+   50% { -moz-transform:  rotate(0deg) skewX(-4deg);  }
+   60% { -moz-transform:  rotate(0deg) skewX(3deg);  }
+   70% { -moz-transform:  rotate(0deg) skewX(-2deg);  }
+   80% { -moz-transform:  rotate(0deg) skewX(1deg);  }
+   90% { -moz-transform:  rotate(0deg) skewX(0deg);  }
+   100% { -moz-transform:  rotate(0deg) skewX(0deg);  }
+}
+@-o-keyframes transform-wiggle
+{
+   0% { -o-transform:  rotate(0deg) skewX(9deg);  }
+   10% { -o-transform:  rotate(0deg) skewX(-8deg);  }
+   20% { -o-transform:  rotate(0deg) skewX(7deg);  }
+   30% { -o-transform:  rotate(0deg) skewX(-6deg);  }
+   40% { -o-transform:  rotate(0deg) skewX(5deg);  }
+   50% { -o-transform:  rotate(0deg) skewX(-4deg);  }
+   60% { -o-transform:  rotate(0deg) skewX(3deg);  }
+   70% { -o-transform:  rotate(0deg) skewX(-2deg);  }
+   80% { -o-transform:  rotate(0deg) skewX(1deg);  }
+   90% { -o-transform:  rotate(0deg) skewX(0deg);  }
+   100% { -o-transform:  rotate(0deg) skewX(0deg);  }
+}
+@-ms-keyframes transform-wiggle
+{
+   0% { -ms-transform:  rotate(0deg) skewX(9deg);  }
+   10% { -ms-transform:  rotate(0deg) skewX(-8deg);  }
+   20% { -ms-transform:  rotate(0deg) skewX(7deg);  }
+   30% { -ms-transform:  rotate(0deg) skewX(-6deg);  }
+   40% { -ms-transform:  rotate(0deg) skewX(5deg);  }
+   50% { -ms-transform:  rotate(0deg) skewX(-4deg);  }
+   60% { -ms-transform:  rotate(0deg) skewX(3deg);  }
+   70% { -ms-transform:  rotate(0deg) skewX(-2deg);  }
+   80% { -ms-transform:  rotate(0deg) skewX(1deg);  }
+   90% { -ms-transform:  rotate(0deg) skewX(0deg);  }
+   100% { -ms-transform:  rotate(0deg) skewX(0deg);  }
+}
+@keyframes transform-wiggle
+{
+   0% { transform:  rotate(0deg) skewX(9deg);  }
+   10% { transform:  rotate(0deg) skewX(-8deg);  }
+   20% { transform:  rotate(0deg) skewX(7deg);  }
+   30% { transform:  rotate(0deg) skewX(-6deg);  }
+   40% { transform:  rotate(0deg) skewX(5deg);  }
+   50% { transform:  rotate(0deg) skewX(-4deg);  }
+   60% { transform:  rotate(0deg) skewX(3deg);  }
+   70% { transform:  rotate(0deg) skewX(-2deg);  }
+   80% { transform:  rotate(0deg) skewX(1deg);  }
+   90% { transform:  rotate(0deg) skewX(0deg);  }
+   100% { transform:  rotate(0deg) skewX(0deg);  }
+}
 a
 {
    color: #0000FF;
