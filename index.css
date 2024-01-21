@@ -154,9 +154,18 @@ body
    width: 100%;
    height: 100%;
 }
-#TextArt1
+#wb_Text1 
 {
-   border-width: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
 }
 #wb_MediaPlayer1
 {
@@ -165,7 +174,19 @@ body
    top: 19%;
    width: 12%;
    height: 5%;
+   visibility: hidden;
    z-index: 5;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 31%;
+   top: 4%;
+   width: 12%;
+   height: 6%;
+   visibility: hidden;
+   z-index: 8;
+   text-align: left;
 }
 #wb_raydiumlogo
 {
@@ -264,16 +285,6 @@ body
    height: 5%;
    z-index: 11;
 }
-#wb_TextArt1
-{
-   position: absolute;
-   left: 20%;
-   top: 1%;
-   width: 18%;
-   height: 4%;
-   visibility: hidden;
-   z-index: 8;
-}
 #wb_xlogo
 {
    position: absolute;
@@ -309,11 +320,6 @@ body
    width: 42%;
    height: 6%;
    z-index: 7;
-}
-#TextArt1
-{
-   width: 100%;
-   height: 100%;
 }
 #Cat_Club
 {
@@ -372,9 +378,9 @@ div#container
 #wb_Contact
 {
    left: 10%;
-   top: 11%;
+   top: 9%;
    width: 78%;
-   height: 14%;
+   height: 8%;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -429,44 +435,49 @@ div#container
    top: 79%;
    width: 57%;
    height: 6%;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Enter_Club
 {
-   left: 29%;
-   top: 33%;
-   width: 40%;
-   height: 7%;
+   left: 32%;
+   top: 43%;
+   width: 33%;
+   height: 5%;
    visibility: visible;
    display: inline;
    color: #FFFFFF;
+   font-size: 15px;
    background-color: #020315;
    background-image: none;
 }
 #wb_cat1
 {
-   left: 19%;
-   top: 44%;
-   width: 15%;
-   height: 22%;
+   left: 13%;
+   top: 47%;
+   width: 16%;
+   height: 19%;
    visibility: visible;
    display: inline;
 }
 #wb_cat2
 {
-   left: 65%;
-   top: 44%;
+   left: 69%;
+   top: 47%;
    width: 15%;
-   height: 22%;
+   height: 19%;
    visibility: visible;
    display: inline;
 }
-#wb_TextArt1
+#wb_Text1
 {
-   left: 7%;
-   top: 3%;
+   left: 18%;
+   top: 2%;
+   width: 73%;
+   height: 4%;
    visibility: visible;
    display: inline;
+   background-color: transparent;
+   background-image: none;
 }
 }
