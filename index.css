@@ -16,6 +16,15 @@ body
    margin: 0;
    text-align: center;
 }
+#mainbg
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #Image1
 {
    border: 0px #000000 solid;
@@ -48,15 +57,6 @@ body
 {
    background-color: #02071A;
    background-image: none;
-}
-#mainbg
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #Layer1
 {
@@ -332,6 +332,15 @@ div#container
 {
    width: 1920px;
 }
+#wb_mainbg
+{
+   left: 22%;
+   top: 7%;
+   width: 53%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 22%;
@@ -356,15 +365,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 22%;
-   top: 7%;
-   width: 53%;
-   height: 79%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -484,6 +484,15 @@ div#container
 {
    width: 1660px;
 }
+#wb_mainbg
+{
+   left: 18%;
+   top: 7%;
+   width: 62%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 18%;
@@ -508,15 +517,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 18%;
-   top: 7%;
-   width: 62%;
-   height: 79%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -636,6 +636,15 @@ div#container
 {
    width: 1440px;
 }
+#wb_mainbg
+{
+   left: 14%;
+   top: 7%;
+   width: 71%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 14%;
@@ -660,15 +669,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 14%;
-   top: 7%;
-   width: 71%;
-   height: 79%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -788,6 +788,15 @@ div#container
 {
    width: 1320px;
 }
+#wb_mainbg
+{
+   left: 10%;
+   top: 7%;
+   width: 78%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 10%;
@@ -812,15 +821,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 10%;
-   top: 7%;
-   width: 78%;
-   height: 79%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -940,6 +940,15 @@ div#container
 {
    width: 1280px;
 }
+#wb_mainbg
+{
+   left: 9%;
+   top: 7%;
+   width: 80%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 9%;
@@ -964,15 +973,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 9%;
-   top: 7%;
-   width: 80%;
-   height: 79%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -1092,6 +1092,15 @@ div#container
 {
    width: 1024px;
 }
+#wb_mainbg
+{
+   left: 4%;
+   top: 9%;
+   width: 91%;
+   height: 63%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 4%;
@@ -1116,15 +1125,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 4%;
-   top: 9%;
-   width: 91%;
-   height: 63%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -1244,6 +1244,15 @@ div#container
 {
    width: 980px;
 }
+#wb_mainbg
+{
+   left: 7%;
+   top: 9%;
+   width: 84%;
+   height: 75%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 8%;
@@ -1268,15 +1277,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 7%;
-   top: 9%;
-   width: 84%;
-   height: 75%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -1396,6 +1396,15 @@ div#container
 {
    width: 800px;
 }
+#wb_mainbg
+{
+   left: 5%;
+   top: 11%;
+   width: 86%;
+   height: 74%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 5%;
@@ -1420,15 +1429,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 5%;
-   top: 11%;
-   width: 86%;
-   height: 74%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -1548,6 +1548,15 @@ div#container
 {
    width: 768px;
 }
+#wb_mainbg
+{
+   left: 8%;
+   top: 11%;
+   width: 81%;
+   height: 68%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
    left: 8%;
@@ -1572,15 +1581,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 8%;
-   top: 11%;
-   width: 81%;
-   height: 68%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -1700,21 +1700,30 @@ div#container
 {
    width: 320px;
 }
+#wb_mainbg
+{
+   left: 3%;
+   top: 12%;
+   width: 90%;
+   height: 45%;
+   visibility: visible;
+   display: inline;
+}
 #wb_Image1
 {
-   left: 0%;
-   top: 11%;
-   width: 100%;
-   height: 64%;
+   left: 2%;
+   top: 12%;
+   width: 91%;
+   height: 45%;
    visibility: visible;
    display: inline;
 }
 #wb_partycat
 {
-   left: 0%;
-   top: 27%;
-   width: 99%;
-   height: 34%;
+   left: 3%;
+   top: 25%;
+   width: 90%;
+   height: 30%;
    visibility: visible;
    display: inline;
 }
@@ -1724,15 +1733,6 @@ div#container
    display: inline;
    background-color: #02071A;
    background-image: none;
-}
-#wb_mainbg
-{
-   left: 0%;
-   top: 11%;
-   width: 100%;
-   height: 64%;
-   visibility: visible;
-   display: inline;
 }
 #Layer1
 {
@@ -1744,7 +1744,7 @@ div#container
 #wb_Contact
 {
    left: 5%;
-   top: 9%;
+   top: 11%;
    width: 90%;
    height: 10%;
    visibility: visible;
@@ -1762,7 +1762,7 @@ div#container
 #wb_tele
 {
    left: 6%;
-   top: 67%;
+   top: 57%;
    width: 17%;
    height: 9%;
    visibility: visible;
@@ -1771,7 +1771,7 @@ div#container
 #wb_xlogo
 {
    left: 29%;
-   top: 67%;
+   top: 57%;
    width: 17%;
    height: 9%;
    visibility: visible;
@@ -1780,7 +1780,7 @@ div#container
 #wb_raydiumlogo
 {
    left: 50%;
-   top: 67%;
+   top: 57%;
    width: 23%;
    height: 9%;
    visibility: visible;
@@ -1788,8 +1788,8 @@ div#container
 }
 #wb_birdeye
 {
-   left: 76%;
-   top: 67%;
+   left: 77%;
+   top: 57%;
    width: 17%;
    height: 9%;
    visibility: visible;
@@ -1806,19 +1806,19 @@ div#container
 }
 #wb_cat1
 {
-   left: 13%;
-   top: 47%;
-   width: 16%;
-   height: 19%;
+   left: 16%;
+   top: 33%;
+   width: 12%;
+   height: 14%;
    visibility: visible;
    display: inline;
 }
 #wb_cat2
 {
    left: 69%;
-   top: 47%;
-   width: 15%;
-   height: 19%;
+   top: 33%;
+   width: 11%;
+   height: 14%;
    visibility: visible;
    display: inline;
 }
@@ -1835,14 +1835,14 @@ div#container
 }
 #Enter_Club
 {
-   left: 33%;
-   top: 43%;
-   width: 33%;
-   height: 5%;
+   left: 34%;
+   top: 42%;
+   width: 29%;
+   height: 6%;
    visibility: visible;
    display: inline;
    color: #FFFFFF;
-   font-size: 15px;
+   font-size: 13px;
    background-color: #020315;
    background-image: none;
 }
