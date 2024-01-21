@@ -1,0 +1,156 @@
+div#container
+{
+   width: 1608px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #02071A;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Image1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#partycat
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-pulse 600ms linear 0ms infinite normal;
+   -moz-animation: transform-pulse 600ms linear 0ms infinite normal;
+   animation: transform-pulse 600ms linear 0ms infinite normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#partycat:enabled
+{
+   padding-bottom: px;
+   -webkit-transition: padding-bottom 500ms linear 0ms;
+   -moz-transition: padding-bottom 500ms linear 0ms;
+   transition: padding-bottom 500ms linear 0ms;
+}
+#Layer2
+{
+   background-color: #02071A;
+   background-image: none;
+}
+#mainbg
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer1
+{
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Contact div
+{
+   text-align: left;
+}
+#Cat_Club
+{
+   border-width: 0;
+}
+#tele
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#xlogo
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#raydiumlogo
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#birdeye
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MediaPlayer1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Enter_Club
+{
+   border: 1px #F5F5F5 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #020315;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-weight: normal;
+   font-size: 16px;
+}
+#cat1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#cat2
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
