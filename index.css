@@ -123,19 +123,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Enter_Club
-{
-   border: 1px #F5F5F5 solid;
-   -moz-border-radius: 4px;
-   -webkit-border-radius: 4px;
-   border-radius: 4px;
-   background-color: #020315;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Verdana;
-   font-weight: normal;
-   font-size: 16px;
-}
 #cat1
 {
    border: 0px #000000 solid;
@@ -161,11 +148,24 @@ body
    border: 0px #000000 solid;
    padding: 0;
    margin: 0;
-   text-align: left;
+   text-align: center;
 }
 #wb_Text1 div
 {
-   text-align: left;
+   text-align: center;
+}
+#Enter_Club
+{
+   border: 1px #F5F5F5 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #020315;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-weight: normal;
+   font-size: 16px;
 }
 #wb_MediaPlayer1
 {
@@ -183,10 +183,10 @@ body
    left: 31%;
    top: 4%;
    width: 12%;
-   height: 6%;
+   height: 8%;
    visibility: hidden;
+   text-align: center;
    z-index: 8;
-   text-align: left;
 }
 #wb_raydiumlogo
 {
@@ -200,18 +200,18 @@ body
 #wb_Image1
 {
    position: absolute;
-   left: 12%;
+   left: 17%;
    top: 7%;
-   width: 73%;
+   width: 64%;
    height: 79%;
    filter: alpha(opacity=50);
    opacity: 0.50;
-   z-index: 10;
+   z-index: 12;
 }
 #Layer1
 {
    position: fixed;
-   overflow: auto;
+   overflow: hidden;
    text-align: left;
    left: 0;
    top: 0;
@@ -221,13 +221,13 @@ body
 }
 #Layer2
 {
-   position: absolute;
+   position: fixed;
    overflow: hidden;
    text-align: left;
-   left: 102px;
-   top: 823px;
-   width: 1506px;
-   height: 858px;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
    z-index: 14;
 }
 #wb_birdeye
@@ -254,35 +254,35 @@ body
    left: 24%;
    top: 16%;
    width: 53%;
-   height: 2%;
+   height: 5%;
    text-align: center;
    z-index: 0;
 }
 #wb_mainbg
 {
    position: absolute;
-   left: 12%;
+   left: 17%;
    top: 7%;
-   width: 73%;
+   width: 64%;
    height: 79%;
    z-index: 9;
-}
-#wb_cat1
-{
-   position: absolute;
-   left: 26%;
-   top: 39%;
-   width: 8%;
-   height: 36%;
-   z-index: 13;
 }
 #Enter_Club
 {
    position: absolute;
-   left: 43%;
-   top: 59%;
-   width: 12%;
+   left: 44%;
+   top: 58%;
+   width: 10%;
    height: 5%;
+   z-index: 13;
+}
+#wb_cat1
+{
+   position: absolute;
+   left: 30%;
+   top: 39%;
+   width: 7%;
+   height: 36%;
    z-index: 11;
 }
 #wb_xlogo
@@ -297,11 +297,11 @@ body
 #wb_cat2
 {
    position: absolute;
-   left: 60%;
-   top: 39%;
-   width: 8%;
+   left: 61%;
+   top: 41%;
+   width: 7%;
    height: 36%;
-   z-index: 12;
+   z-index: 10;
 }
 #wb_partycat
 {
@@ -326,7 +326,1375 @@ body
    width: 100%;
    height: 100%;
 }
-@media only screen and (max-width: 1607px)
+@media only screen and (min-width: 1920px)
+{
+div#container
+{
+   width: 1920px;
+}
+#wb_Image1
+{
+   left: 22%;
+   top: 7%;
+   width: 53%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 34%;
+   top: 26%;
+   width: 29%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 22%;
+   top: 7%;
+   width: 53%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 29%;
+   top: 16%;
+   width: 41%;
+   height: 2%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 28%;
+   top: 8%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 37%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 43%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 48%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 55%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 35%;
+   top: 19%;
+   width: 9%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 33%;
+   top: 39%;
+   width: 6%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 59%;
+   top: 41%;
+   width: 6%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 24%;
+   top: 4%;
+   width: 9%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 45%;
+   top: 58%;
+   width: 8%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 1660px) and (max-width: 1919px)
+{
+div#container
+{
+   width: 1660px;
+}
+#wb_Image1
+{
+   left: 18%;
+   top: 7%;
+   width: 62%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 33%;
+   top: 26%;
+   width: 34%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 18%;
+   top: 7%;
+   width: 62%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 26%;
+   top: 16%;
+   width: 50%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 31%;
+   top: 9%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 39%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 44%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 48%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 54%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 43%;
+   top: 19%;
+   width: 11%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 31%;
+   top: 39%;
+   width: 7%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 61%;
+   top: 41%;
+   width: 7%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 29%;
+   top: 4%;
+   width: 11%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 44%;
+   top: 58%;
+   width: 10%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 1440px) and (max-width: 1659px)
+{
+div#container
+{
+   width: 1440px;
+}
+#wb_Image1
+{
+   left: 14%;
+   top: 7%;
+   width: 71%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 33%;
+   top: 26%;
+   width: 38%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 14%;
+   top: 7%;
+   width: 71%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 24%;
+   top: 16%;
+   width: 56%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 30%;
+   top: 9%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 40%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 45%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 50%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 56%;
+   top: 73%;
+   width: 3%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 48%;
+   top: 19%;
+   width: 12%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 28%;
+   top: 39%;
+   width: 8%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 62%;
+   top: 41%;
+   width: 8%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 33%;
+   top: 4%;
+   width: 13%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 43%;
+   top: 58%;
+   width: 11%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 1320px) and (max-width: 1439px)
+{
+div#container
+{
+   width: 1320px;
+}
+#wb_Image1
+{
+   left: 10%;
+   top: 7%;
+   width: 78%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 28%;
+   top: 26%;
+   width: 42%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 10%;
+   top: 7%;
+   width: 78%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 19%;
+   top: 16%;
+   width: 61%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 25%;
+   top: 9%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 38%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 44%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 49%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 57%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 52%;
+   top: 19%;
+   width: 13%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 26%;
+   top: 39%;
+   width: 9%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 63%;
+   top: 42%;
+   width: 9%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 36%;
+   top: 4%;
+   width: 14%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 43%;
+   top: 59%;
+   width: 13%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1319px)
+{
+div#container
+{
+   width: 1280px;
+}
+#wb_Image1
+{
+   left: 9%;
+   top: 7%;
+   width: 80%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 28%;
+   top: 26%;
+   width: 43%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 9%;
+   top: 7%;
+   width: 80%;
+   height: 79%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 21%;
+   top: 16%;
+   width: 62%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 28%;
+   top: 9%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 38%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 45%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 50%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 57%;
+   top: 73%;
+   width: 4%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 53%;
+   top: 19%;
+   width: 14%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 27%;
+   top: 39%;
+   width: 9%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 63%;
+   top: 39%;
+   width: 9%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 37%;
+   top: 4%;
+   width: 14%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 43%;
+   top: 58%;
+   width: 13%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px)
+{
+div#container
+{
+   width: 1024px;
+}
+#wb_Image1
+{
+   left: 4%;
+   top: 9%;
+   width: 91%;
+   height: 63%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 20%;
+   top: 26%;
+   width: 54%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 4%;
+   top: 9%;
+   width: 91%;
+   height: 63%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 11%;
+   top: 16%;
+   width: 78%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 27%;
+   top: 8%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 32%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 40%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 47%;
+   top: 73%;
+   width: 7%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 56%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 75%;
+   top: 19%;
+   width: 18%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 26%;
+   top: 38%;
+   width: 8%;
+   height: 22%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 64%;
+   top: 39%;
+   width: 8%;
+   height: 24%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 54%;
+   top: 4%;
+   width: 18%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 41%;
+   top: 49%;
+   width: 16%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px)
+{
+div#container
+{
+   width: 980px;
+}
+#wb_Image1
+{
+   left: 8%;
+   top: 9%;
+   width: 82%;
+   height: 74%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 25%;
+   top: 26%;
+   width: 56%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 7%;
+   top: 9%;
+   width: 84%;
+   height: 75%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 13%;
+   top: 16%;
+   width: 82%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 22%;
+   top: 9%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 35%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 43%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 50%;
+   top: 73%;
+   width: 7%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 60%;
+   top: 73%;
+   width: 5%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 70%;
+   top: 19%;
+   width: 18%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 23%;
+   top: 41%;
+   width: 9%;
+   height: 35%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 63%;
+   top: 40%;
+   width: 10%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 48%;
+   top: 4%;
+   width: 19%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 43%;
+   top: 58%;
+   width: 12%;
+   height: 4%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 979px)
+{
+div#container
+{
+   width: 800px;
+}
+#wb_Image1
+{
+   left: 5%;
+   top: 11%;
+   width: 86%;
+   height: 74%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 15%;
+   top: 26%;
+   width: 69%;
+   height: 43%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 5%;
+   top: 11%;
+   width: 86%;
+   height: 74%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 17%;
+   top: 16%;
+   width: 64%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 9%;
+   top: 5%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 31%;
+   top: 74%;
+   width: 7%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 41%;
+   top: 74%;
+   width: 7%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 49%;
+   top: 74%;
+   width: 9%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 61%;
+   top: 74%;
+   width: 7%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 86%;
+   top: 19%;
+   width: 23%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 22%;
+   top: 41%;
+   width: 10%;
+   height: 34%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 64%;
+   top: 41%;
+   width: 11%;
+   height: 34%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 59%;
+   top: 4%;
+   width: 23%;
+   height: 8%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 41%;
+   top: 59%;
+   width: 15%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+div#container
+{
+   width: 768px;
+}
+#wb_Image1
+{
+   left: 8%;
+   top: 11%;
+   width: 81%;
+   height: 68%;
+   visibility: visible;
+   display: inline;
+}
+#wb_partycat
+{
+   left: 13%;
+   top: 30%;
+   width: 72%;
+   height: 48%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_mainbg
+{
+   left: 8%;
+   top: 11%;
+   width: 81%;
+   height: 68%;
+   visibility: visible;
+   display: inline;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: #02071A;
+   background-image: none;
+}
+#wb_Contact
+{
+   left: 12%;
+   top: 18%;
+   width: 74%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Cat_Club
+{
+   left: 6%;
+   top: 6%;
+   visibility: visible;
+   display: inline;
+}
+#wb_tele
+{
+   left: 29%;
+   top: 81%;
+   width: 7%;
+   height: 7%;
+   visibility: visible;
+   display: inline;
+}
+#wb_xlogo
+{
+   left: 39%;
+   top: 81%;
+   width: 7%;
+   height: 7%;
+   visibility: visible;
+   display: inline;
+}
+#wb_raydiumlogo
+{
+   left: 48%;
+   top: 81%;
+   width: 9%;
+   height: 7%;
+   visibility: visible;
+   display: inline;
+}
+#wb_birdeye
+{
+   left: 60%;
+   top: 81%;
+   width: 7%;
+   height: 7%;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 89%;
+   top: 21%;
+   width: 23%;
+   height: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_cat1
+{
+   left: 24%;
+   top: 42%;
+   width: 9%;
+   height: 29%;
+   visibility: visible;
+   display: inline;
+}
+#wb_cat2
+{
+   left: 64%;
+   top: 42%;
+   width: 9%;
+   height: 29%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   left: 62%;
+   top: 4%;
+   width: 24%;
+   height: 9%;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 41%;
+   top: 55%;
+   width: 15%;
+   height: 6%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #020315;
+   background-image: none;
+}
+}
+@media only screen and (max-width: 767px)
 {
 div#container
 {
@@ -344,7 +1712,7 @@ div#container
 #wb_partycat
 {
    left: 0%;
-   top: 30%;
+   top: 27%;
    width: 99%;
    height: 34%;
    visibility: visible;
@@ -352,8 +1720,6 @@ div#container
 }
 #Layer2
 {
-   width: 320px;
-   height: 618px;
    visibility: visible;
    display: inline;
    background-color: #02071A;
@@ -377,10 +1743,10 @@ div#container
 }
 #wb_Contact
 {
-   left: 10%;
+   left: 5%;
    top: 9%;
-   width: 78%;
-   height: 8%;
+   width: 90%;
+   height: 10%;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -438,19 +1804,6 @@ div#container
    visibility: hidden;
    display: none;
 }
-#Enter_Club
-{
-   left: 32%;
-   top: 43%;
-   width: 33%;
-   height: 5%;
-   visibility: visible;
-   display: inline;
-   color: #FFFFFF;
-   font-size: 15px;
-   background-color: #020315;
-   background-image: none;
-}
 #wb_cat1
 {
    left: 13%;
@@ -471,13 +1824,26 @@ div#container
 }
 #wb_Text1
 {
-   left: 18%;
+   left: 2%;
    top: 2%;
-   width: 73%;
-   height: 4%;
+   width: 94%;
+   height: 6%;
    visibility: visible;
    display: inline;
    background-color: transparent;
+   background-image: none;
+}
+#Enter_Club
+{
+   left: 33%;
+   top: 43%;
+   width: 33%;
+   height: 5%;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-size: 15px;
+   background-color: #020315;
    background-image: none;
 }
 }
