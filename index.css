@@ -1,0 +1,311 @@
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Image7
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-wiggle 1500ms linear 0ms infinite normal;
+   -moz-animation: transform-wiggle 1500ms linear 0ms infinite normal;
+   animation: transform-wiggle 1500ms linear 0ms infinite normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-pulse 1500ms linear 0ms infinite normal;
+   -moz-animation: transform-pulse 1500ms linear 0ms infinite normal;
+   animation: transform-pulse 1500ms linear 0ms infinite normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image4
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-bounce 1500ms linear 0ms infinite normal;
+   -moz-animation: transform-bounce 1500ms linear 0ms infinite normal;
+   animation: transform-bounce 1500ms linear 0ms infinite normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image5
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image6
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-bounce 1500ms linear 0ms infinite normal;
+   -moz-animation: transform-bounce 1500ms linear 0ms infinite normal;
+   animation: transform-bounce 1500ms linear 0ms infinite normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 34%;
+   top: 65%;
+   width: 12%;
+   height: 35%;
+   z-index: 5;
+}
+#Layer1
+{
+   position: fixed;
+   text-align: left;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 6;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 54%;
+   top: 62%;
+   width: 10%;
+   height: 37%;
+   z-index: 4;
+}
+#Layer2
+{
+   position: fixed;
+   text-align: left;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 7;
+}
+#wb_Image4
+{
+   position: absolute;
+   left: 33%;
+   top: 1%;
+   width: 30%;
+   height: 21%;
+   z-index: 3;
+}
+#wb_Image5
+{
+   position: absolute;
+   left: 35%;
+   top: 23%;
+   width: 26%;
+   height: 22%;
+   z-index: 2;
+}
+#wb_Image6
+{
+   position: absolute;
+   left: 42%;
+   top: 53%;
+   width: 13%;
+   height: 12%;
+   z-index: 1;
+}
+#wb_Image7
+{
+   position: absolute;
+   left: 32%;
+   top: 0%;
+   width: 34%;
+   height: 98%;
+   z-index: 0;
+}
+@media only screen and (min-width: 1660px) and (max-width: 1899px)
+{
+body
+{
+   background-color: #000000;
+   background-image: none;
+}
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: url(images/420120244_3198029677170792_7910786193154588814_n.jpg);
+   background-repeat: no-repeat;
+   background-position: center top;
+}
+#wb_Image7
+{
+   left: 77%;
+   top: 13%;
+   width: 19%;
+   height: 55%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image2
+{
+   left: 23%;
+   top: 42%;
+   width: 20%;
+   height: 57%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image3
+{
+   left: 61%;
+   top: 40%;
+   width: 17%;
+   height: 59%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image4
+{
+   left: 30%;
+   top: 3%;
+   width: 39%;
+   height: 30%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image5
+{
+   left: 35%;
+   top: 26%;
+   width: 30%;
+   height: 26%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image6
+{
+   left: 43%;
+   top: 53%;
+   width: 15%;
+   height: 14%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+}
+@media only screen and (max-width: 1659px)
+{
+#Layer1
+{
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+   background-image: none;
+}
+#wb_Image7
+{
+   left: 0%;
+   top: 0%;
+   width: 100%;
+   height: 100%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image2
+{
+   left: 5%;
+   top: 63%;
+   width: 40%;
+   height: 35%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image3
+{
+   left: 59%;
+   top: 63%;
+   width: 36%;
+   height: 36%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image4
+{
+   left: 9%;
+   top: 8%;
+   width: 81%;
+   height: 17%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image5
+{
+   left: 13%;
+   top: 26%;
+   width: 72%;
+   height: 17%;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image6
+{
+   left: 22%;
+   top: 47%;
+   width: 55%;
+   height: 16%;
+   visibility: visible;
+   display: inline;
+}
+#Layer2
+{
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+}
