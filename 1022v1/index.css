@@ -119,7 +119,7 @@ body
    width: 326px;
    height: 72px;
    text-align: center;
-   z-index: 10;
+   z-index: 9;
 }
 #Shape1
 {
@@ -190,7 +190,7 @@ body
    top: 491px;
    width: 228px;
    height: 203px;
-   z-index: 5;
+   z-index: 4;
 }
 #wb_Image6
 {
@@ -199,7 +199,7 @@ body
    top: 543px;
    width: 129px;
    height: 129px;
-   z-index: 6;
+   z-index: 5;
 }
 #wb_Image7
 {
@@ -208,7 +208,7 @@ body
    top: 546px;
    width: 165px;
    height: 123px;
-   z-index: 4;
+   z-index: 10;
 }
 #wb_Image8
 {
@@ -217,7 +217,7 @@ body
    top: 554px;
    width: 112px;
    height: 106px;
-   z-index: 9;
+   z-index: 8;
 }
 #wb_Image9
 {
@@ -235,7 +235,7 @@ body
    top: 672px;
    width: 358px;
    height: 87px;
-   z-index: 7;
+   z-index: 6;
 }
 #wb_Shape2
 {
@@ -245,14 +245,14 @@ body
    width: 291px;
    height: 87px;
    visibility: hidden;
-   z-index: 8;
+   z-index: 7;
 }
 @media only screen and (max-width: 969px)
 {
 #wb_Image2
 {
-   left: 112px;
-   top: 511px;
+   left: 138px;
+   top: 373px;
    width: 103px;
    height: 103px;
    visibility: visible;
@@ -260,14 +260,14 @@ body
 }
 #Layer1
 {
-   width: 320px;
+   width: 378px;
    height: 910px;
    visibility: visible;
    display: inline;
    background-color: transparent;
    background-image: url(images/416111892_328156180215899_8872704669035389180_n.jpg);
    background-repeat: no-repeat;
-   background-position: center center;
+   background-position: center top;
    background-attachment: scroll;
    background-size: contain;
 }
@@ -277,8 +277,8 @@ body
 }
 #wb_Image3
 {
-   left: 104px;
-   top: 209px;
+   left: 134px;
+   top: 41px;
    width: 111px;
    height: 105px;
    visibility: visible;
@@ -286,8 +286,8 @@ body
 }
 #wb_Image4
 {
-   left: 201px;
-   top: 511px;
+   left: 192px;
+   top: 366px;
    width: 117px;
    height: 117px;
    visibility: visible;
@@ -295,8 +295,8 @@ body
 }
 #wb_Image5
 {
-   left: 3px;
-   top: 511px;
+   left: 18px;
+   top: 368px;
    width: 127px;
    height: 127px;
    visibility: visible;
@@ -304,8 +304,8 @@ body
 }
 #wb_Image6
 {
-   left: 0px;
-   top: 539px;
+   left: 1px;
+   top: 394px;
    width: 74px;
    height: 74px;
    visibility: visible;
@@ -313,8 +313,8 @@ body
 }
 #wb_Image9
 {
-   left: 82px;
-   top: 545px;
+   left: 90px;
+   top: 400px;
    width: 63px;
    height: 63px;
    visibility: visible;
@@ -329,17 +329,17 @@ body
 }
 #wb_Image7
 {
-   left: 226px;
-   top: 544px;
+   left: 234px;
+   top: 394px;
    width: 86px;
-   height: 64px;
+   height: 69px;
    visibility: visible;
    display: inline;
 }
 #wb_Image8
 {
-   left: 162px;
-   top: 544px;
+   left: 170px;
+   top: 399px;
    width: 64px;
    height: 65px;
    visibility: visible;
@@ -347,15 +347,15 @@ body
 }
 #wb_Shape2
 {
-   left: 15px;
-   top: 621px;
+   left: 18px;
+   top: 490px;
    visibility: visible;
    display: inline;
 }
 #wb_Text1
 {
-   left: 21px;
-   top: 628px;
+   left: 24px;
+   top: 497px;
    width: 279px;
    height: 72px;
    visibility: visible;
