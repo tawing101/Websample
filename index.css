@@ -92,7 +92,7 @@ body
    top: 72%;
    width: 13%;
    height: 31%;
-   z-index: 3;
+   z-index: 4;
 }
 #Layer1
 {
@@ -112,7 +112,7 @@ body
    top: 69%;
    width: 11%;
    height: 33%;
-   z-index: 4;
+   z-index: 3;
 }
 #Layer2
 {
@@ -270,9 +270,9 @@ div#container
 #wb_Image3
 {
    left: 47%;
-   top: 57%;
-   width: 47%;
-   height: 44%;
+   top: 56%;
+   width: 52%;
+   height: 45%;
    visibility: visible;
    display: inline;
 }
